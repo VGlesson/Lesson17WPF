@@ -45,8 +45,8 @@ namespace WpfApp1
             ColorChangedEvent = EventManager.RegisterRoutedEvent("ColorChanged", RoutingStrategy.Bubble,
                 typeof(RoutedPropertyChangedEventHandler<Color>), typeof(ColorIndex));
 
-            ColorChangedEvent = EventManager.RegisterRoutedEvent("ColorChanged", RoutingStrategy.Bubble,
-                typeof(RoutedPropertyChangedEventHandler<Color>), typeof(ColorIndex));
+            //ColorChangedEvent = EventManager.RegisterRoutedEvent("ColorChanged", RoutingStrategy.Bubble,
+            //    typeof(RoutedPropertyChangedEventHandler<Color>), typeof(ColorIndex));
         }
 
         public Color Color

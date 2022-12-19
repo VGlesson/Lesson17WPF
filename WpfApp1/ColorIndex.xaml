@@ -20,10 +20,10 @@
         <Slider x:Name="sliderRed" Minimum="0" Maximum="255"
                 Margin="{Binding ElementName=colorIndex,Path=Padding}"
                 Value="{Binding ElementName=colorIndex, Path=Red}"></Slider>
-        <Slider x:Name="sliderRed" Minimum="0" Maximum="255" Grid.Row="1"
+        <Slider x:Name="sliderGreen" Minimum="0" Maximum="255" Grid.Row="1"
                 Margin="{Binding ElementName=colorIndex,Path=Padding}"
                 Value="{Binding ElementName=colorIndex, Path=Green}"></Slider>
-        <Slider x:Name="sliderRed" Minimum="0" Maximum="255" Grid.Row="2"
+        <Slider x:Name="sliderBlue" Minimum="0" Maximum="255" Grid.Row="2"
                 Margin="{Binding ElementName=colorIndex,Path=Padding}"
                 Value="{Binding ElementName=colorIndex, Path=Blue}"></Slider>
         <Rectangle Grid.Column="1" Grid.RowSpan="3" Width="50" Stroke="Black" StrokeThickness="1" StrokeDashArray="2 1">
